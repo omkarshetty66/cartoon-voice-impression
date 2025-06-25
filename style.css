@@ -1,0 +1,46 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(#fff8e1, #ffe0b2);
+  color: #333;
+  margin: 0;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #d84315;
+  margin-bottom: 10px;
+}
+
+.intro, .try-it {
+  text-align: center;
+  font-size: 1.1em;
+  margin: 15px 0;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #fff3e0;
+  padding: 20px;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #5d4037;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 0.95em;
+}
